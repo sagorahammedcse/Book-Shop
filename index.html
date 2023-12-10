@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/src/assets/images/logo.png"/>
+    <link href="/src/css/style.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="/cdn/swiper.css"/>
+    <link rel="stylesheet" href="/cdn/jquery.css">
+    <script src="/cdn/swiper.js"></script>
+    <script src="/src/js/tailwind3.3.3.js"></script>
+    <script src="/cdn/goggleapi.js"></script>
+    <script src="/cdn/jquery.js"></script>
+    <script src="/cdn/fontawsome.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Second Book</title>
+    <style>
+
+    </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="py-2 bg-gray-400">
+    <div class="flex justify-between items-center max-w-7xl mx-auto ">
+      <div class="flex justify-center items-center "><img src="/src/assets/images/logo.png" alt="" class="w-10"><div><span class="font-black text-2xl mr-1">SECOND</span>Book</div></div>
+      <div class="flex space-x-4">
+        <a href="/">Home</a>
+        <a href="/pages/blog.html">Blog</a>
+        <a href="/pages/login.html">Login</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero     -->
+  <div class="relative">
+    <picture class="w-full ">
+        <!-- 1600 x 400 -->
+        <img src="/src/assets/images/hero.jpg"  class="w-full h-[35em]"/>
+    </picture>
+    <button class="absolute hover:bg-gray-600 top-1/2 right-1/4 bg-gray-500 text-white py-3 md:px-5 font-bold  lg:px-10 px-2  md:text-lg  text-xs rounded-md uppercase" >Order now</button>
+  </div>
+
+  <!-- Genres -->
+  <div class="grid md:grid-cols-3 grid-cols-1 gap-4 my-6 max-w-7xl mx-auto">
+    <!-- Card -->
+    <div class="max-w-md mx-auto bg-cover bg-center rounded-lg overflow-hidden shadow-md bg-gray-300">
+      <!-- Background Image -->
+      <img src="/src/assets/images/zombie-hand-halloween-theme-concept.jpg" alt="Background Image" class="w-full h-64 object-cover">
+    
+      <!-- Card Content -->
+      <div class="p-6">
+        <!-- Title -->
+        <h2 class="text-2xl font-bold text-center mb-4">Mystery</h2>
+    
+        <!-- Button -->
+        <div class="flex justify-center">
+          <button class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded w-full">See books on Mystery</button>
+        </div>
+      </div>
+    </div>
+    <!-- Card -->
+    <div class="max-w-md mx-auto bg-cover bg-center rounded-lg overflow-hidden shadow-md bg-gray-300">
+      <!-- Background Image -->
+      <img src="/src/assets/images/zombie-hand-halloween-theme-concept.jpg" alt="Background Image" class="w-full h-64 object-cover">
+    
+      <!-- Card Content -->
+      <div class="p-6">
+        <!-- Title -->
+        <h2 class="text-2xl font-bold text-center mb-4">Thriller</h2>
+    
+        <!-- Button -->
+        <div class="flex justify-center">
+          <button class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded w-full">See books on Thriller</button>
+        </div>
+      </div>
+    </div>
+    <!-- Card -->
+    <div class="max-w-md mx-auto bg-cover bg-center rounded-lg overflow-hidden shadow-md bg-gray-300">
+      <!-- Background Image -->
+      <img src="/src/assets/images/zombie-hand-halloween-theme-concept.jpg" alt="Background Image" class="w-full h-64 object-cover">
+    
+      <!-- Card Content -->
+      <div class="p-6">
+        <!-- Title -->
+        <h2 class="text-2xl font-bold text-center mb-4">Horror</h2>
+    
+        <!-- Button -->
+        <div class="flex justify-center">
+          <button class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded w-full">See books on Horror</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Blog   -->
+  <div class="md:mb-20 max-w-screen-xl mx-auto ">
+    <div class="md:mb-12 md:mt-10">
+      <p class="md:text-6xl text-3xl text-center font-black">Blog</p>
+    </div>
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 m-10">
+      <div class="max-w-3xl p-6 overflow-hidden rounded-lg shadow dark:bg-gray-600 dark:text-gray-100 flex justify-center items-center">
+        <article>
+          <h2 class="text-xl font-bold">
+            What are the different ways to manage a state in a React
+            application?
+          </h2>
+          <p class="mt-4 dark:text-gray-400">
+            There are four main types of state you need to properly manage in
+            your React apps: Local state: Local state is data we manage in one
+            or another component. Global state: Global state is data we manage
+            across multiple components. Server state: Data that comes from an
+            external server that must be integrated with our UI state. URL
+            state: Data that exists on our URLs, including the pathname and
+            query parameters.
+          </p>
+        </article>
+      </div>
+      <div class="max-w-3xl p-6 overflow-hidden rounded-lg shadow dark:bg-gray-600 dark:text-gray-100">
+        <article>
+          <h2 class="text-xl font-bold">
+            How does prototypical inheritance work?
+          </h2>
+          <p class="mt-4 dark:text-gray-400">
+            The Prototypal Inheritance is a feature in javascript used to add
+            methods and properties in objects. It is a method by which an
+            object can inherit the properties and methods of another object.
+            Traditionally, in order to get and set the Prototype of an object,
+            we use Object. getPrototypeOf and Object.
+          </p>
+        </article>
+      </div>
+      <div class="max-w-3xl p-6 overflow-hidden rounded-lg shadow dark:bg-gray-600 dark:text-gray-100">
+        <article>
+          <h2 class="text-xl font-bold">
+            What is a unit test? Why should we write unit tests?
+          </h2>
+          <p class="mt-4 dark:text-gray-400">
+            The main objective of unit testing is to isolate written code to
+            test and determine if it works as intended. Unit testing is an
+            important step in the development process, because if done
+            correctly, it can help detect early flaws in code which may be
+            more difficult to find in later testing stages.
+          </p>
+        </article>
+      </div>
+      <div class="max-w-3xl p-6 overflow-hidden rounded-lg shadow dark:bg-gray-600 dark:text-gray-100">
+        <article>
+          <h2 class="text-xl font-bold">React vs. Angular vs. Vue?</h2>
+          <p class="mt-4 dark:text-gray-400">
+            Vue provides higher customizability and hence is easier to learn
+            than Angular or React. Further, Vue has an overlap with Angular
+            and React with respect to their functionality like the use of
+            components. Hence, the transition to Vue from either of the two is
+            an easy option.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div>
+    <section class="p-6 my-6 dark:bg-gray-300  dark:text-gray-100">
+      <div class="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
+        <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-600 dark:text-gray-100">
+          <div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="h-9 w-9 dark:text-gray-800"
+            >
+              <polygon points="160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039"></polygon>
+              <path d="M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z"></path>
+              <path d="M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z"></path>
+            </svg>
+          </div>
+          <div class="flex flex-col justify-center align-middle">
+            <p class="text-3xl font-semibold leading-none">200</p>
+            <p class="capitalize">Orders</p>
+          </div>
+        </div>
+        <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-600 dark:text-gray-100">
+          <div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="h-9 w-9 dark:text-gray-800"
+            >
+              <path d="M256,16C123.452,16,16,123.452,16,256S123.452,496,256,496,496,388.548,496,256,388.548,16,256,16ZM403.078,403.078a207.253,207.253,0,1,1,44.589-66.125A207.332,207.332,0,0,1,403.078,403.078Z"></path>
+              <path d="M256,384A104,104,0,0,0,360,280H152A104,104,0,0,0,256,384Z"></path>
+              <polygon points="205.757 228.292 226.243 203.708 168 155.173 109.757 203.708 130.243 228.292 168 196.827 205.757 228.292"></polygon>
+              <polygon points="285.757 203.708 306.243 228.292 344 196.827 381.757 228.292 402.243 203.708 344 155.173 285.757 203.708"></polygon>
+            </svg>
+          </div>
+          <div class="flex flex-col justify-center align-middle">
+            <p class="text-3xl font-semibold leading-none">7.5K</p>
+            <p class="capitalize">New customers</p>
+          </div>
+        </div>
+        <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-600 dark:text-gray-100">
+          <div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="h-9 w-9 dark:text-gray-800"
+            >
+              <path d="M425.706,142.294A240,240,0,0,0,16,312v88H160V368H48V312c0-114.691,93.309-208,208-208s208,93.309,208,208v56H352v32H496V312A238.432,238.432,0,0,0,425.706,142.294Z"></path>
+              <rect width="32" height="32" x="80" y="264"></rect>
+              <rect width="32" height="32" x="240" y="128"></rect>
+              <rect width="32" height="32" x="136" y="168"></rect>
+              <rect width="32" height="32" x="400" y="264"></rect>
+              <path d="M297.222,335.1l69.2-144.173-28.85-13.848L268.389,321.214A64.141,64.141,0,1,0,297.222,335.1ZM256,416a32,32,0,1,1,32-32A32.036,32.036,0,0,1,256,416Z"></path>
+            </svg>
+          </div>
+          <div class="flex flex-col justify-center align-middle">
+            <p class="text-3xl font-semibold leading-none">172%</p>
+            <p class="capitalize">Growth</p>
+          </div>
+        </div>
+        <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-600 dark:text-gray-100">
+          <div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-400">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="currentColor"
+              class="h-9 w-9 dark:text-gray-800"
+            >
+              <path d="M454.423,278.957,328,243.839v-8.185a116,116,0,1,0-104,0V312H199.582l-18.494-22.6a90.414,90.414,0,0,0-126.43-13.367,20.862,20.862,0,0,0-8.026,33.47L215.084,496H472V302.08A24.067,24.067,0,0,0,454.423,278.957ZM192,132a84,84,0,1,1,136,65.9V132a52,52,0,0,0-104,0v65.9A83.866,83.866,0,0,1,192,132ZM440,464H229.3L79.141,297.75a58.438,58.438,0,0,1,77.181,11.91l28.1,34.34H256V132a20,20,0,0,1,40,0V268.161l144,40Z"></path>
+            </svg>
+          </div>
+          <div class="flex flex-col justify-center align-middle">
+            <p class="text-3xl font-semibold leading-none">1K</p>
+            <p class="capitalize">Daily Active User</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- FAQ -->
+  <div class="max-w-4xl mx-auto my-10">
+      <h1 class="text-3xl font-semibold mb-8 text-center">Frequently Asked Questions</h1>
+
+      <div class="border rounded-lg overflow-hidden">
+          <!-- FAQ items -->
+          <div class="p-4">
+              <div class="faq-item border-b py-4">
+                  <h2 class="text-lg font-semibold cursor-pointer">When can I sell my book?</h2>
+                  <p class="answer hidden text-gray-600 mt-2">Answer to question 1.</p>
+              </div>
+              <div class="faq-item border-b py-4">
+                  <h2 class="text-lg font-semibold cursor-pointer">Can I have the books shipped to me?</h2>
+                  <p class="answer hidden text-gray-600 mt-2">Answer to question 2.</p>
+              </div>
+              <div class="faq-item py-4">
+                  <h2 class="text-lg font-semibold cursor-pointer">When will my order be ready?</h2>
+                  <p class="answer hidden text-gray-600 mt-2">Answer to question 2.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bg-gray-400 ">
+    <footer class="footer p-10 text-base-content max-w-screen-xl mx-auto flex justify-between md:flex-row flex-col md:space-y-0 space-y-4" >
+      <!-- logo -->
+      <div class="flex justify-center items-center">
+        <a href="/" class="btn btn-ghost normal-case text-xl flex items-center">
+          <img src="/src/assets/images/logo.png" alt="" class="w-10">
+          <span class="font-black text-2xl mr-1">SECOND</span>Book
+        </a>
+      </div>
+      <!-- links -->
+      <div class="flex flex-col space-y-2">
+        <a href="/" class="link link-hover">Home</a>
+        <a href="/Blog" class="link link-hover">Blog</a>
+        <a href="/About" class="link link-hover">About</a>
+        <a href="/Dashboard" class="link link-hover">Dashboard</a>
+      </div>
+      <!-- Newsletter -->
+      <div>
+        <div>
+          <span class="footer-title text-2xl font-bold">Newsletter</span>
+          <div class="form-control w-80">
+            <label class="label">
+            </label>
+            <div class="relative">
+              <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16 rounded-lg py-2 pl-2">
+              <button class="btn absolute top-0 right-0 rounded-l-none bg-gray-800 text-white px-3 py-2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text-center text-2xl font-bold">Social</div>
+        <div class="flex justify-center items-center space-x-4 text-2xl">
+          <a href="https://twitter.com/HasanCh38413037" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://github.com/HasanC14" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/hasan.chowdhuryD/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>  
+  <script src="/src/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat:wght@500&family=Roboto+Condensed&display=swap');
+*{
+font-family: 'Montserrat', sans-serif;
+}
+.bg-prime{
+  background-color: #ef4444;
+}
+.bg-second{
+
+}
+.bg-footer{
+background-color: #F8F5F2;
+}
+.text-prime{
+  color: #ef4444;
+}
+.text-second{
+
+}
+.gradient_btn{
+}
+
+/* Swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  background: #000;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #ef4444; 
+}
+.swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal{
+  margin-top: 30px !important;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.menu {
+  position: fixed;
+  top: -100%; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: top 0.8s ease-in-out; 
+}
+.btn:active {
+  animation: slowPop  0.9s ease-in-out;
+}
+
+@keyframes slowPop {
+  0% {
+    transform: scale(.97)
+  }
+  40% {
+    transform: scale(1.01)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+               -webkit-appearance: none;
+                margin: 0;
+        }
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #F1594A;
+}
+
+/* Responsive map  */
+.map {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; 
+  height: 0;
+  max-width: 100%;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .map {
+      padding-bottom: 75%; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .map {
+      padding-bottom: 66.66%; 
+  }
+}
